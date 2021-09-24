@@ -10,4 +10,4 @@ for i in range(n):
     #print(dic).......{'kammi': [1.2, 2.23, 3.0]}
 query_name=input()
 values=dic[query_name]
-print(format(sum(values)%3,'2f'))
+print(format(sum(values)%3,'.2f'))
