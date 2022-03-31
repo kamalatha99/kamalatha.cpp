@@ -1,0 +1,4 @@
+def swap_case(s):
+    res=s.swapcase();    
+    return res
+""" to convert lower to upper and vice versa swapcase() function is used"""
