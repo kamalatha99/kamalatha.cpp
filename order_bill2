@@ -1,0 +1,17 @@
+dic={
+    "idli":30,
+    "dosa":60,
+     "upma":25,
+     "vada":35
+}
+for item,cost in dic.items():
+    print(item,"Rs.",cost)
+print("order please.....item ,space format...")
+order=input().split(",")
+bill=0
+for item in order:
+    if item in dic:
+        bill+=dic[item]
+    else:
+        print(item,"not available")
+print("total bill: $",bill)
