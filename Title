@@ -1,0 +1,6 @@
+def solve(s):
+    s=s.title()
+    return s
+s=input("enter string")
+res=solve(s)
+print(res)
